@@ -8,8 +8,8 @@ macOS/Linux: git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 Windows: git clone https://github.com/NvChad/NvChad $HOME\AppData\Local\nvim --depth 1 && nvim
 ```
 ## Adding custom configuration
-once that is done, add this repo in the custom folder by doing
+once that is done, add this repo to the custom folder by doing
 ``` bash
-macOS/Linux: cd ~/.config/nvim/lua/custom && rm -rf * && git clone https://github.com/theweak1/custom-for-nvchad.git .
-Windows: cd $HOME\AppData\Local\nvim\lua\custom && rm -rf * && git clone https://github.com/theweak1/custom-for-nvchad.git .
+macOS/Linux: cd ~/.config/nvim/lua && mkdir custom && cd custom && git clone https://github.com/theweak1/custom-for-nvchad.git .
+Windows: cd $HOME\AppData\Local\nvim\lua && mkdir custom && cd custom && git clone https://github.com/theweak1/custom-for-nvchad.git .
 ```

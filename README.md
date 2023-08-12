@@ -13,3 +13,8 @@ once that is done, add this repo to the custom folder by doing
 macOS/Linux: cd ~/.config/nvim/lua && mkdir custom && cd custom && git clone https://github.com/theweak1/custom-for-nvchad.git .
 Windows: cd $HOME\AppData\Local\nvim\lua && mkdir custom && cd custom && git clone https://github.com/theweak1/custom-for-nvchad.git .
 ```
+### lsp install
+once in nvim install lsp, linters and formatter
+``` bash
+:MasonInstall markdown-toc markdownlint prisma-language-server deno prettier lua-language-server css-lsp grammarly-languageserver html-lsp json-lsp jsonlint tailwindcss-language-server typescript-language-server
+```

@@ -22,6 +22,31 @@ local plugins = {
       vim.api.nvim_command('highlight Normal cterm=NONE')
       vim.api.nvim_command('highlight Normal guibg=NONE')
     end,
-  }
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        -- defaults 
+        "vim",
+        "lua",
+        "bash",
+
+        -- web dev 
+        "html",
+        "css",
+        "javascript",
+        "typescript",
+        "tsx",
+        "json",
+        "markdown",
+        -- "vue", "svelte",
+
+       -- low level
+        "c",
+        "zig"
+      },
+    },
+  },
 }
 return plugins

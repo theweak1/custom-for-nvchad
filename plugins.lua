@@ -31,6 +31,7 @@ local plugins = {
         "vim",
         "lua",
         "bash",
+        "yaml",
 
         -- web dev 
         "html",

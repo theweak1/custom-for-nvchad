@@ -16,5 +16,5 @@ Windows: cd $HOME\AppData\Local\nvim\lua && mkdir custom && cd custom && git clo
 ### lsp install
 once in nvim install lsp, linters and formatter
 ``` bash
-:MasonInstall css-lsp deno grammarly-languageserver html-lsp json-lsp jsonlint lua-language-server markdown-toc markdownlint prettier prettierd prisma-language-server tailwindcss-language-server typescript-language-server
+:MasonInstall css-lsp deno grammarly-languageserver html-lsp json-lsp jsonlint lua-language-server markdown-toc markdownlint prettier prettierd prisma-language-server tailwindcss-language-server typescript-language-server yaml-language-server yamllint yamlfix yamlfmt
 ```

@@ -1,5 +1,5 @@
 # custom-for-nvchad
-This are my files for the lua/custom folder after installving nvchad
+The files for the lua/custom folder are inside the [dotfiles repo](https://github.com/theweak1/dotfiles). This Repo is in case of installing nvim on windows and how to set the custon configurations for it.
 
 ## NvChad install
 ```bash
